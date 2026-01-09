@@ -57,7 +57,7 @@ origins = [
     "http://localhost:5500", # VS Code Live Server
     "http://127.0.0.1:5500",
     "https://rag-chatbot-orcin.vercel.app",   # **FIXED: No trailing slash, added comma**
-    "https://rag-chatbot-m68a.onrender.com",       # **FIXED: Added comma**
+    "https://rag-chatbot-3bpp.onrender.com",       # **FIXED: Added comma**
     "null" # For local file:// access
 ]
 
@@ -420,3 +420,4 @@ async def health_check():
 # 3. Install dependencies: pip install -r requirements.txt
 
 # 4. Run the app: uvicorn main:app --reload --port 8000
+
